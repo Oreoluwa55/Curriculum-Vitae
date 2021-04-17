@@ -1,0 +1,60 @@
+body {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 10px;
+    padding: 30px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+}
+
+.skill-list {
+    background-color: grey;
+    color: whitesmoke;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: none;
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 5%;
+    text-align: justify;
+}
+
+.personal-details {
+    background-color: rgb(29, 22, 22);
+    color: whitesmoke;
+    height: 10rem;
+    padding-left: 1rem;
+}
+
+.personal-details h3 {
+    font-size: 2rem;
+}
+.hr {
+    width: 20%;
+    float: left;
+}
+
+.interest {
+    background-color: grey;
+    color: whitesmoke;
+    width: auto;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: none;
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 5%;
+    text-align: justify;
+}
